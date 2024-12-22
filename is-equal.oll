@@ -1,0 +1,8 @@
+READ #gets user input as a float(decimal)
+READ
+SUB #subtracts the previous two values
+JMP.EQ.0 5 #jumps to line seven if the top of the stack is equal to 0
+OUT they arent equal #outputs the text 'they arent equal' to the screen
+HALT #stops the program
+OUT they are equal!
+HALT
